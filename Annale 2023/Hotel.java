@@ -27,10 +27,10 @@ public class Hotel {
             if (this.chambres[i].getLibre()){
                 this.chambres[i].setOccupe();
             } else {
-                System.out.println("La chambre n°" + numero + " n'est pas disponible.");
+                System.out.println("La chambre n°" + numero + " n'est pas disponible");
             }
         } else {
-            System.out.println("La chambre n°" + numero + " n'a pas été trouvée.");
+            System.out.println("La chambre n°" + numero + " n'a pas été trouvée");
         }
     }
 }
