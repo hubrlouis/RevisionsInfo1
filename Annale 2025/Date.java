@@ -62,8 +62,12 @@ public class Date {
     */
 
     public static void main(String[] args){
-        Date d1 = new Date(7,6,2026);
-        System.out.println(d1);
+        Date d1 = new Date(7,6,2025);
+        Date d2 = new Date(7,6,2025);
         System.out.println("Date 1: " + d1);
+        System.out.println("Comparaison A : " + (d1 == d2));
+        System.out.println("Comparaison B: " + (d1.equals(d2)));
+        System.out.println("Comparaison C: " + (d1.compareTo(d2) == 0));
+        System.out.println("Comparaison D: " + (d1.toString().equals(d2.toString())));
     }
 }
